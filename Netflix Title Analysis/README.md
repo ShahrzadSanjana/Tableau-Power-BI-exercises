@@ -1,4 +1,3 @@
-![screenshot](https://user-images.githubusercontent.com/78444311/148698223-5f17f735-820b-4ebe-95bf-cf289e6db28d.jpg)
 **Overview**
 
 I wanted to demonstrate and practice my dashboarding skills and ability to present visualizations on metrics that I think will matter most to a business in a clean, thoughtful, and easily digestible manner.
@@ -25,6 +24,6 @@ The .CSV file from Kaggle needed to be cleaned before I could import it into my 
 
 4)	I had a few duplicate entries in my data, so I used the Conditional Formatting option to highlight duplicate Titles with red-colour text. I then used the ‘Filter’ feature to ‘Filter by text colour’ and return only these titles (instead of having to sift through thousands of rows to find the highlighted Titles in red-coloured text), and deleted the duplicate entries. 
 
-![This is an image](https://github.com/ShahrzadSanjana/Tableau-and-Power-BI-exercises/blob/main/Netflix%20Title%20Analysis/screenshot.tif)
+![screenshot](https://user-images.githubusercontent.com/78444311/148698223-5f17f735-820b-4ebe-95bf-cf289e6db28d.jpg)
 
     In the above screenshot, all the duplicate Titles in the database are in red-colour text. This allowed me to quickly delete the rows that were really duplicates – for example, I deleted one of the “Love in a Puff” rows, but I kept both “Fullmetal Alchemist” titles as one was a movie and the other a TV show released by different Director’s and Cast (I confirmed this was the case on imdb.com). 
