@@ -1,3 +1,4 @@
+![screenshot](https://user-images.githubusercontent.com/78444311/148698223-5f17f735-820b-4ebe-95bf-cf289e6db28d.jpg)
 **Overview**
 
 I wanted to demonstrate and practice my dashboarding skills and ability to present visualizations on metrics that I think will matter most to a business in a clean, thoughtful, and easily digestible manner.
