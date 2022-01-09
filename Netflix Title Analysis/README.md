@@ -7,10 +7,15 @@ But rather than stopping at only building a dashboard, I wanted to put myself in
 To this end, I downloaded this dataset of Netflix Titles in .CSV format from Kaggle, and cleaned it using the Data Cleaning techniques described below, and then created my visualizations and dashboard with KPI’s. 
 
 
+
 **Data cleaning steps:**
 
 The .CSV file from Kaggle needed to be cleaned before I could import it into my visualization program, so these are the data cleaning steps that I took to address its quality. 
 
-1)	My data set contains Director’s names and Titles with accented letters and words in foreign languages as well. I noticed that Excel had trouble displaying these characters in their true forms, and instead displayed odd characters in their place. For example, the Mexican documentary, titled ‘Zoé: Panoramas’ was displayed as ‘ZoÃ©: Panoramas’ in the file. 
+1)	My data set contains Director’s names and Titles with accented letters and words in foreign languages as well. I noticed that Excel had trouble displaying these characters in their true forms, and instead displayed odd characters in their place. For example, the documentary, titled ‘Zoé: Panoramas’ was displayed as ‘ZoÃ©: Panoramas’ in the file. 
 
-    Since I have never faced such encoding issues to do with accented letters and foreign languages in my data, I looked up another way to clean my data on the internet. The   solution was to first save the file in .txt type (using ‘Save as’). Then I opened a new Excel workbook and went to the Data tab to select ‘Get External Data from Text file’. For ‘File Origin’ drop-down, I learned I am supposed to change the default to ‘65001: Unicode (UTF-8)’, in order to debug the encoding issues with my data set. I learnt this trick through excelforum.com. 
+    Since I have never faced such encoding issues with accented letters and foreign languages in my data, I looked up another way to clean the file without having to search for the right Title or Director's names on Google and copying that into the .CSV file. The solution was to first save the file in .txt type (using ‘Save as’). Then I opened a new Excel workbook and went to the Data tab to select ‘Get External Data from Text file’. For the ‘File Origin’ drop-down menu, I learned I am supposed to change the default to ‘65001: Unicode (UTF-8)’, in order to debug the encoding issues with my data set. I learnt this trick through excelforum.com. 
+    
+    This ‘cleaning technique’ eliminated any time I had to take to replace the broken characters with the right letters or foreign language for multiple affected rows and columns.
+
+2)	Next, I used the ‘Filter’ function in Excel, and applied it to each column to get a get an 'at-a-glance' view of the different values through the menu drop-down in the column headers. For example, I found that there were show duration times in the Rating column, and copied and pasted those values to the Duration column. The 'Filter' tool saved me time in having to go through each row for thousands of rows to find incorrectly entered data.
