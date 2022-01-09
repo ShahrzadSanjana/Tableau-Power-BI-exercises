@@ -26,4 +26,5 @@ The .CSV file from Kaggle needed to be cleaned before I could import it into my 
 
 ![screenshot](https://user-images.githubusercontent.com/78444311/148698223-5f17f735-820b-4ebe-95bf-cf289e6db28d.jpg)
 
+
     In the above screenshot, all the duplicate Titles in the database are in red-colour text. This allowed me to quickly delete the rows that were really duplicates – for example, I deleted one of the “Love in a Puff” rows, but I kept both “Fullmetal Alchemist” titles as one was a movie and the other a TV show released by different Director’s and Cast (I confirmed this was the case on imdb.com). 
