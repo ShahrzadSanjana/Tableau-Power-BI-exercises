@@ -1,4 +1,4 @@
-**#Overview#**
+**Overview**
 
 I wanted to demonstrate and practice my dashboarding skills and ability to present visualizations on metrics that I think will matter most to a business in a clean, thoughtful, and easily digestible manner.
 
