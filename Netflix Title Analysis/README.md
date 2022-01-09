@@ -22,9 +22,9 @@ The .CSV file from Kaggle needed to be cleaned before I could import it into my 
 
 3)	Thirdly, I used the ‘Text to Columns’ feature in the Data tab to reformat the dates in my data set into a single, uniform format. In the downloaded version of the file, the Date_added column had multiple date formats, such  as ‘21-02-2012’ and ‘September 16, 2018’. The ‘Text to Columns’ feature allowed me to change the date format to the MDY convention we use in N. America. I then went to the ‘Number’ section on the Home tab to display dates in the long format: ‘month dd, year’, and all this ensured there was uniformity in appearance. 
 
-4)	I had a few duplicate entries in my data, so I used the Conditional Formatting option to highlight duplicate Titles with red-colour text. I then used the ‘Filter’ feature to ‘Filter by text colour’ and return only these titles (instead of having to sift through thousands of rows to find the highlighted Titles in red-coloured text), and deleted the duplicate entries. 
+4)	I had a few duplicate entries in my data, so I used the Conditional Formatting option to highlight duplicate Titles with red-colour text. I then used the ‘Filter’ feature to ‘Filter by text colour’ and return only these titles (instead of having to sift through thousands of rows to find the highlighted Titles in red-coloured text), and deleted the duplicate entries. In the below screenshot, all the duplicate Titles in the database are in red-colour text. This allowed me to quickly delete the rows that were really duplicates – for example, I deleted one of the “Love in a Puff” rows, but I kept both “Fullmetal Alchemist” titles as one was a movie and the other a TV show released by different Director’s and Cast (I confirmed this was the case on imdb.com). 
 
 ![screenshot](https://user-images.githubusercontent.com/78444311/148698223-5f17f735-820b-4ebe-95bf-cf289e6db28d.jpg)
 
 
-    In the above screenshot, all the duplicate Titles in the database are in red-colour text. This allowed me to quickly delete the rows that were really duplicates – for example, I deleted one of the “Love in a Puff” rows, but I kept both “Fullmetal Alchemist” titles as one was a movie and the other a TV show released by different Director’s and Cast (I confirmed this was the case on imdb.com). 
+    
