@@ -8,7 +8,7 @@ A manager wants to see a report on the latest sales figures. They've requested a
 3) Which product and segment should the company continue to invest in?
 
 Objective:
-Download sample data
-Prepare the data with a few transformations
-Build a report with a title, three visuals, and a slicer
-Publish the report to the Power BI service to with colleagues
+1) Download sample data
+2) Prepare the data with a few transformations
+3) Build a report with a title, three visuals, and a slicer
+4) Publish the report to the Power BI service to with colleagues
