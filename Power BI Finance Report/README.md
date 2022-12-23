@@ -11,7 +11,6 @@ A manager wants to see a report on the latest sales figures. They've requested a
 <br/>
 
 **Objectives:** 
-
 <br/>
 1) Download sample data <br/>
 2) Prepare the data with a few transformations <br/>
