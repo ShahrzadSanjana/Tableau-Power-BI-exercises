@@ -8,7 +8,7 @@ A manager wants to see a report on the latest sales figures. They've requested a
 3) Which product and segment should the company continue to invest in?
 
 <br/>
-
+<br/>
 Objective:
 1) Download sample data
 2) Prepare the data with a few transformations
