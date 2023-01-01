@@ -19,9 +19,7 @@ A manager wants to see a report on the latest company sales figures. They've req
 <br/>
 
 **Getting the Data** 
-
 <br/>
-
 There were 2 ways to get the sample data for this project:
 
 1)
