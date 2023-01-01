@@ -16,3 +16,7 @@ A manager wants to see a report on the latest company sales figures. They've req
 2) Prepare the data with a few transformations <br/>
 3) Build a report with a title, three visuals, and a slicer <br/>
 4) Publish the report to the Power BI service to with colleagues <br/>
+
+**Getting the Data**
+There were 2 ways to get the sample data for this project:
+1)
