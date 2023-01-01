@@ -20,6 +20,10 @@ A manager wants to see a report on the latest company sales figures. They've req
 
 **Getting the Data** 
 <br/>
+
 There were 2 ways to get the sample data for this project:
 
-1)
+1) Download the sample workbook directly from https://go.microsoft.com/fwlink/?LinkID=521962 and connect to it using the Excel workbook connector in Power BI, or
+2) Open up Power BI Desktop and choose "Try a sample dataset" from the blank canvas
+
+
