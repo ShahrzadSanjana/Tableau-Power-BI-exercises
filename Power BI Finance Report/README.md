@@ -78,16 +78,12 @@ Region-wise, North America (Canada, U.S., and Mexico) produces more profit than 
 
 **VISUAL #4: Sales by Product & Segment**
 
-We’ll create a Bar Chart to determine which Segment and Products generated more sales.
-
-From the chart, it is clear the company should continue investing in its 'Paseo' product as it generates the higest sales acros all Segments. For this product, the Government segment returns the most sales.
+We’ll create a Bar Chart to determine which Segment and Products generated more sales. From the chart, it is clear the company should continue investing in its 'Paseo' product as it generates the higest sales acros all Segments. For this product, the Government segment returns the most sales.
 
 
 **VISUAL #5: Year Slicer**
 
-Slicers are valuable for filtering and adjusting the visuals on your page to display specific information.
-
-We can create two different slicers for performance by Month & Year. 
+Slicers are valuable for filtering and adjusting the visuals on your page to display specific information. We can create two different slicers for performance by Month & Year. 
 
 We can create a Slicer from the Date field from the original Financials table. You can go to Slicer settings in the visualizations pane and click the drop-down to choose a different type of Slicer.
 
