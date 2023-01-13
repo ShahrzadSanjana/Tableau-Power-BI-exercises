@@ -26,4 +26,12 @@ There were 2 ways to get the sample data for this project:
 1) Download the sample workbook directly from https://go.microsoft.com/fwlink/?LinkID=521962 and connect to it using the Excel workbook connector in Power BI, or
 2) Open up Power BI Desktop and choose "Try a sample dataset" from the blank canvas, and on the right of the dialog box, click "Load sample data"
 
+![Image 1 resized](https://user-images.githubusercontent.com/78444311/212312415-4778fd68-f366-4fe6-8a3f-1e1f4d216c64.png)
+
+
+
+**Preparing your data**
+We will first transform the data in the financials table of the file before loading into the data model. 
+
+
 
