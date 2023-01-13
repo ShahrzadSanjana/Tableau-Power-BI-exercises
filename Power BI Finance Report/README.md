@@ -53,3 +53,46 @@ Those were all the data transformations. We are ready to load this cleaned data 
 <br/>
 
 **Data Modelling**
+
+
+
+Using DAX for new columns and measures
+
+
+We will use a measure to calculate the SUM of the Units Sold column
+
+
+Total Units Sold = SUM(financials[Units Sold])
+
+<br/>
+
+**VISUAL #3: Profit by Country/Region**
+
+Use Map visualization to see which Country/Region earned the greatest share of profit. Drag Country field to a blank area of the canvas to create a map visualization, and drag the profit field from the Financials table to the map.
+
+Power BI creates a map visual complete with bubbles representing the profit of each Country/Region.
+
+Region-wise, North America (Canada, U.S., and Mexico) produces more profit than Europe. Country-wise, France produces more profit during the time period - $3.3 million, followed by Canada with $3.2 million. 
+
+<br/>
+
+**VISUAL #5: Year Slicer**
+
+Slicers are valuable for filtering and adjusting the visuals on your page to display specific information.
+
+We can create two different slicers for performance by Month & Year. 
+
+We can create a Slicer from the Date field from the original Financials table. You can go to Slicer settings in the visualizations pane and click the drop-down to choose a different type of Slicer.
+
+Second way to create a Slicer is through using the DAX table. Select the Date field from the Calendar table and drag to the canvas. In the Visualizations pane, select the drop-down button next to “Date”, remove Quarter and Day from the Date Hierarchy so you’re only left with Year and Month in the Slicer. 
+
+<br/>
+
+**Formatting the report:**
+
+Change the colour scheme of the reports to Executive.
+
+We’ll also spruce up each individual:
+
+We’ll edit the titles for each visualization, change their font sizes and toggle on background shadows. Then add separate background shapes for the Title visual and for the Line chart and Map visuals. 
+
