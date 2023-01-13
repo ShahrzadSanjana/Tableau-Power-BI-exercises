@@ -76,6 +76,13 @@ Region-wise, North America (Canada, U.S., and Mexico) produces more profit than 
 
 <br/>
 
+**VISUAL #4: Sales by Product & Segment**
+
+We’ll create a Bar Chart to determine which Segment and Products generated more sales.
+
+From the chart, it is clear the company should continue investing in its 'Paseo' product as it generates the higest sales acros all Segments. For this product, the Government segment returns the most sales.
+
+
 **VISUAL #5: Year Slicer**
 
 Slicers are valuable for filtering and adjusting the visuals on your page to display specific information.
