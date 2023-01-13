@@ -29,6 +29,7 @@ There were 2 ways to get the sample data for this project:
 ![Image 1 resized](https://user-images.githubusercontent.com/78444311/212312415-4778fd68-f366-4fe6-8a3f-1e1f4d216c64.png)
 
 
+<br/>
 
 **Preparing your data**
 
