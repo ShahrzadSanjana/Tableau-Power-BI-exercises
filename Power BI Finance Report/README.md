@@ -31,11 +31,12 @@ There were 2 ways to get the sample data for this project:
 
 
 **Preparing your data**
+
 <br/>
 We will first transform the data in the financials table of the file before loading into the data model. 
 <br/>
 
-Transformations:
+Transformations to do:
 
 1) Change the data type of the Units Sold column from decimal to a whole number as it is impossible to have fractions of a product sold.
 
