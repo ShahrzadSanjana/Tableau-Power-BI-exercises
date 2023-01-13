@@ -33,6 +33,7 @@ There were 2 ways to get the sample data for this project:
 
 **Preparing your data**
 <br/>
+
 We will first transform the data in the financials table of the file before loading into the data model. 
 <br/>
 
@@ -50,4 +51,5 @@ Transformations to do:
 Those were all the data transformations. We are ready to load this cleaned data in to a data model now, so I clicked “Close & Apply” in the Home tab.
 
 <br/>
+
 **Data Modelling**
