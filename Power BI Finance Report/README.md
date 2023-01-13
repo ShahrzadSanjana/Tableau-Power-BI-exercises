@@ -31,7 +31,20 @@ There were 2 ways to get the sample data for this project:
 
 
 **Preparing your data**
+<br/>
 We will first transform the data in the financials table of the file before loading into the data model. 
+<br/>
+
+Transformations:
+
+1) Change the data type of the Units Sold column from decimal to a whole number as it is impossible to have fractions of a product sold.
+
+2) Format the Segments column to display text values in uppercase. Right click the column header > Transform > UPPERCASE
+
+3) Rename the Month Name column to Month
+
+4) Filter out the data for a discontinued product in the Product column. Select the drop-down button in the column header and filtered out the rows containing the “Montana” product from the data model.
+
 
 
 
