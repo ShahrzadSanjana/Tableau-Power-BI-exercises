@@ -66,6 +66,8 @@ Total Units Sold = SUM(financials[Units Sold])
 
 <br/>
 
+**Data Visualization** 
+
 There will be 5 visuals in all.
 
 VISUAL #1
