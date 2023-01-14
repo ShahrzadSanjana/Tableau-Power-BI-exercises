@@ -54,15 +54,25 @@ Those were all the data transformations. We are ready to load this cleaned data 
 
 **Data Modelling**
 
-
-
 Using DAX for new columns and measures
 
 
-We will use a measure to calculate the SUM of the Units Sold column
+We will use a measure to calculate the SUM of the Units Sold column:
 
 
 Total Units Sold = SUM(financials[Units Sold])
+
+
+And I “commit” the measure to the data model. This measure will be useful in …
+
+
+Then I create a New Table in the Data View to be populated by a calculated column. I will write a DAX formula/expression to return a calculated column of all dates between January 1, 2013 and December 31, 2014 using the CALENDAR function. The new table will be called Calendar:
+
+Calendar = CALENDAR(“01/01/2013”, “31/12/2014”)	
+
+In the Model View, we will set up a relationship between this new table and the original Financials table imported from the Excel file that will allow them to interact with each other. Drag the Date field/column from the Financials table on to the Date column in the Calendar table.
+
+We are now ready to build our visuals.
 
 <br/>
 
@@ -70,10 +80,13 @@ Total Units Sold = SUM(financials[Units Sold])
 
 There will be 5 visuals in all.
 
-VISUAL #1
+<br/>
+
+**Visual #1: Title**
 
 Create a Text Box for the report title and add a transparent background to it.
 
+<br/>
 
 **Visual #2: Profit by Date**
 
@@ -83,6 +96,7 @@ We will use the Profit field from the Financials table and the Date column from 
 
 In the Visualizations on the right in the Field section, select the drop-down list next to “Dates”, and select “Date Hierarchy”.
 
+<br/>
 
 **Visual #3: Profit by Country/Region**
 
@@ -98,6 +112,7 @@ Region-wise, North America (Canada, U.S., and Mexico) produces more profit than 
 
 We’ll create a Bar Chart to determine which Segment and Products generated more sales. From the chart, it is clear the company should continue investing in its 'Paseo' product as it generates the higest sales acros all Segments. For this product, the Government segment returns the most sales.
 
+<br/>
 
 **Visual #5: Year Slicer**
 
@@ -109,9 +124,4 @@ The second way to create a Slicer is through using the DAX table. Select the Dat
 
 **Formatting the report:**
 
-Change the colour scheme of the reports to Executive.
-
-We’ll also spruce up each individual:
-
-We’ll edit the titles for each visualization, change their font sizes and toggle on background shadows. Then add separate background shapes for the Title visual and for the Line chart and Map visuals. 
-
+We'll change the colour scheme of the reports to Executive, and edit the titles for each visualization, change their font sizes and toggle on background shadows. Then add separate background shapes for the Title visual and for the Line chart and Map visuals. 
