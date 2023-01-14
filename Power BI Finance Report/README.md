@@ -82,13 +82,13 @@ There will be 5 visuals in all.
 
 <br/>
 
-**Visual #1: Title**
+*Visual #1: Title*
 
 Create a Text Box for the report title and add a transparent background to it.
 
 <br/>
 
-**Visual #2: Profit by Date**
+*Visual #2: Profit by Date*
 
 See which Month & Year had the highest profit using a Line Chart.
 
@@ -98,7 +98,7 @@ In the Visualizations on the right in the Field section, select the drop-down li
 
 <br/>
 
-**Visual #3: Profit by Country/Region**
+*Visual #3: Profit by Country/Region*
 
 Use Map visualization to see which Country/Region earned the greatest share of profit. Drag Country field to a blank area of the canvas to create a map visualization, and drag the profit field from the Financials table to the map.
 
@@ -108,13 +108,13 @@ Region-wise, North America (Canada, U.S., and Mexico) produces more profit than 
 
 <br/>
 
-**Visual #4: Sales by Product & Segment**
+*Visual #4: Sales by Product & Segment*
 
 We’ll create a Bar Chart to determine which Segment and Products generated more sales. From the chart, it is clear the company should continue investing in its 'Paseo' product as it generates the higest sales acros all Segments. For this product, the Government segment returns the most sales.
 
 <br/>
 
-**Visual #5: Year Slicer**
+*Visual #5: Year Slicer*
 
 Slicers are valuable for filtering and adjusting the visuals on your page to display specific information. There are two ways we can create slicers for performance by Month & Year. The first is with the Date field from the original Financials table. You can go to Slicer settings in the visualizations pane and click the drop-down to choose a different type of Slicer.
 
