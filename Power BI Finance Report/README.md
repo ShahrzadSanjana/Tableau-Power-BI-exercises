@@ -18,6 +18,10 @@ A manager wants to see a report on the latest company sales figures. They've req
 4) Publish the report to the Power BI service to with colleagues <br/>
 <br/>
 
+![complete report cropped](https://user-images.githubusercontent.com/78444311/212469817-daf0944a-5ab8-45b3-97ff-71f55c7a1e87.png)
+
+
+
 ### Getting the Data
 <br/>
 
