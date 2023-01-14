@@ -82,7 +82,7 @@ We will use the Profit field from the Financials table and the Date column from 
 In the Visualizations on the right in the Field section, select the drop-down list next to “Dates”, and select “Date Hierarchy”.
 
 
-**VISUAL #3: Profit by Country/Region**
+**Visual #3: Profit by Country/Region**
 
 Use Map visualization to see which Country/Region earned the greatest share of profit. Drag Country field to a blank area of the canvas to create a map visualization, and drag the profit field from the Financials table to the map.
 
@@ -92,18 +92,16 @@ Region-wise, North America (Canada, U.S., and Mexico) produces more profit than 
 
 <br/>
 
-**VISUAL #4: Sales by Product & Segment**
+**Visual #4: Sales by Product & Segment**
 
 We’ll create a Bar Chart to determine which Segment and Products generated more sales. From the chart, it is clear the company should continue investing in its 'Paseo' product as it generates the higest sales acros all Segments. For this product, the Government segment returns the most sales.
 
 
-**VISUAL #5: Year Slicer**
+**Visual #5: Year Slicer**
 
-Slicers are valuable for filtering and adjusting the visuals on your page to display specific information. We can create two different slicers for performance by Month & Year. 
+Slicers are valuable for filtering and adjusting the visuals on your page to display specific information. There are two ways we can create slicers for performance by Month & Year. The first is with the Date field from the original Financials table. You can go to Slicer settings in the visualizations pane and click the drop-down to choose a different type of Slicer.
 
-We can create a Slicer from the Date field from the original Financials table. You can go to Slicer settings in the visualizations pane and click the drop-down to choose a different type of Slicer.
-
-Second way to create a Slicer is through using the DAX table. Select the Date field from the Calendar table and drag to the canvas. In the Visualizations pane, select the drop-down button next to “Date”, remove Quarter and Day from the Date Hierarchy so you’re only left with Year and Month in the Slicer. 
+The second way to create a Slicer is through using the DAX table. Select the Date field from the Calendar table and drag to the canvas. In the Visualizations pane, select the drop-down button next to “Date”, remove Quarter and Day from the Date Hierarchy so you’re only left with Year and Month in the Slicer. 
 
 <br/>
 
