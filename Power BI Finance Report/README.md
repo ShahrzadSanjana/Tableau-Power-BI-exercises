@@ -45,6 +45,9 @@ There were 2 ways to get the sample data for this project:
 We will first transform the data in the financials table of the file before loading into the data model. 
 <br/>
 
+<img width="504" alt="Navigator" src="https://user-images.githubusercontent.com/78444311/212472959-56fd80c0-4dd9-4a30-9f26-7cbe1597304e.png">
+
+
 Transformations to do:
 
 1) Change the data type of the Units Sold column from decimal to a whole number as it is impossible to have fractions of a product sold.
@@ -112,7 +115,7 @@ Use Map visualization to see which Country/Region earned the greatest share of p
 
 Power BI creates a map visual complete with bubbles representing the profit of each Country/Region.
 
-Region-wise, North America (Canada, U.S., and Mexico) produces more profit than Europe. Country-wise, France produces more profit during the time period - $3.3 million, followed by Canada with $3.2 million. 
+Region-wise, North America (Canada, U.S., and Mexico) records the highest profit. Country-wise, France records the most profit during the time period - $3.3 million, followed by Canada with $3.2 million. 
 
 <br/>
 
