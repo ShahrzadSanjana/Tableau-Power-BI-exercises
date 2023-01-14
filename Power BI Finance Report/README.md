@@ -48,7 +48,7 @@ Transformations to do:
 4) Filter out the data for a discontinued product in the Product column. Select the drop-down button in the column header and filtered out the rows containing the “Montana” product from the data model.
 
 
-Those were all the data transformations. We are ready to load this cleaned data in to a data model now, so I clicked “Close & Apply” in the Home tab.
+Those were all the data transformations. We are ready to load this cleaned data in to a data model now, so click “Close & Apply” in the Home tab.
 
 <br/>
 
