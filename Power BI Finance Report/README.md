@@ -1,4 +1,4 @@
-#Overview
+# Overview
 
 Scenario : 
 A manager wants to see a report on the latest company sales figures. They've requested an executive summary of:
@@ -18,7 +18,7 @@ A manager wants to see a report on the latest company sales figures. They've req
 4) Publish the report to the Power BI service to with colleagues <br/>
 <br/>
 
-**Getting the Data** 
+## Getting the Data
 <br/>
 
 There were 2 ways to get the sample data for this project:
@@ -31,7 +31,7 @@ There were 2 ways to get the sample data for this project:
 
 <br/>
 
-**Preparing your data**
+## Preparing your data
 <br/>
 
 We will first transform the data in the financials table of the file before loading into the data model. 
@@ -52,7 +52,7 @@ Those were all the data transformations. We are ready to load this cleaned data 
 
 <br/>
 
-**Data Modelling**
+## Data Modelling
 
 Using DAX for new columns and measures
 
@@ -76,7 +76,7 @@ We are now ready to build our visuals.
 
 <br/>
 
-**Data Visualization** 
+ ## Data Visualization
 
 There will be 5 visuals in all.
 
@@ -122,6 +122,6 @@ The second way to create a Slicer is through using the DAX table. Select the Dat
 
 <br/>
 
-**Formatting the report:**
+## Formatting the report
 
 We'll change the colour scheme of the reports to Executive, and edit the titles for each visualization, change their font sizes and toggle on background shadows. Then add separate background shapes for the Title visual and for the Line chart and Map visuals. 
