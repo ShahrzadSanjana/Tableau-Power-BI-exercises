@@ -66,6 +66,22 @@ Total Units Sold = SUM(financials[Units Sold])
 
 <br/>
 
+There will be 5 visuals in all.
+
+VISUAL #1
+
+Create a Text Box for the report title and add a transparent background to it.
+
+
+**Visual #2: Profit by Date**
+
+See which Month & Year had the highest profit using a Line Chart.
+
+We will use the Profit field from the Financials table and the Date column from Calendar (without the Quarter and Day.
+
+In the Visualizations on the right in the Field section, select the drop-down list next to “Dates”, and select “Date Hierarchy”.
+
+
 **VISUAL #3: Profit by Country/Region**
 
 Use Map visualization to see which Country/Region earned the greatest share of profit. Drag Country field to a blank area of the canvas to create a map visualization, and drag the profit field from the Financials table to the map.
