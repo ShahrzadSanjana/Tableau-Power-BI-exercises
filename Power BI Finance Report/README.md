@@ -74,7 +74,7 @@ We will use a measure to calculate the SUM of the Units Sold column:
 Total Units Sold = SUM(financials[Units Sold])
 
 
-And I “commit” the measure to the data model. This measure will be useful in …
+“Commit” this measure to the data model. This measure will be useful in …
 
 
 Then I create a New Table in the Data View to be populated by a calculated column. I will write a DAX formula/expression to return a calculated column of all dates between January 1, 2013 and December 31, 2014 using the CALENDAR function. The new table will be called Calendar:
